@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="body bg">
+
+    <main class="container">
+        <h1>🏛️ Stocks Calculator 💸</h1>
+        <h2>Check Profit 📈 or Loss 📉 on your stocks</h2>
+        <label class="input-style" for="">
+            <input type="number" id="initial-price" min="1" placeholder="Enter Initial Price Here" />
+        </label>
+
+        <label class="input-style" for="">
+            <input type="number" id="stocks-quantity" min="1" placeholder="Enter the number of stocks bought" />
+        </label>
+
+        <label class="input-style" for="">
+            <input type="number" id="current-price" min="1" placeholder="Enter the current price of the stocks">
+        </label>
+
+        <button id="check-btn">Check</button>
+
+        <div id="output"></div>
+    </main>
+
+    <div class="container" id="footer" style="margin-top: 2rem">
+        <p>&COPY;Made with ❤️ by <a target="_blank" href="https://shivansh-portfolio.netlify.app">Shivansh Sharma</a>
+        </p>
+        <div id="social-links">
+            <a target="_blank" href="https://github.com/Shivanshsharma01" class="social-link fa fa-github"> GitHub</a>
+            <a target="_blank" href="https://twitter.com/Shivansh_10" class="social-link fa fa-twitter"> Twitter</a>
+            <a target="_blank" href="https://www.linkedin.com/in/shivansh-sharma-75863a165"
+                class="social-link fa fa-linkedin"> LinkedIn</a>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

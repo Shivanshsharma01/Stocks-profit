@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+:root {
+    --container-color: #FF9933;
+    --border-color: black;
+    --background-color: peachpuff;
+
+}
+
+body {
+    font-family: sans-serif;
+    
+    
+
+}
+
+.bg {
+    background-image: url(shares.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: var(--background-color);
+    
+}
+
+
+.container {
+    margin: auto;
+    margin-top: 4rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+    background-color: var(--container-color);
+    max-width: 600px;
+    text-align: center;
+}
+
+#check-btn {
+    background-color: var(--background-color);
+    border: 2px solid var(--border-color);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    color: var(--border-color);
+    font-weight: bold;
+    margin: 1rem 0;
+    width: 10rem;
+
+
+}
+
+.input-style {
+    display: block;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+input {
+    padding: 0.5rem 1.5rem;
+    width: 60%;
+    border: 2px solid var(--border-color);
+    border-radius: 2rem;
+    margin: 1rem 0;
+}
+
+#output {
+    font-size: large;
+    font-weight: bold;
+    margin: 1rem  auto;
+}
+
+
+.social-link {
+    text-decoration: none;
+    margin: 0rem 0.5rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+label {
+    display: block;
+    padding-bottom: 1rem;
+
+}
